@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="javascript" href="js/js.js">
+	<title>turismo argentino</title>
+</head>
+<body>
+
+
+	<header class="header">
+		 <nav>
+      <ul>
+
+        <li><a href="#contenidoA">Inicio</a></li>
+        <li><a href="#integrantes">Personal</a></li>
+        <li><a href="#cotizacion">Cotizacion</a></li>
+
+        
+      </ul>
+
+      <button id="boton-contacto" onclick="abrirFormularioContacto()">Contacto</button>
+      <button id="login-button">Iniciar sesión</button>
+      <div id="login-form">
+		
+		<form>
+			<label for="username">Usuario:</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="password">Contraseña:</label>
+			<input type="password" id="password" name="password"><br><br>
+			<input type="submit" value="Iniciar sesión">
+			<input type="reset" value="Cancelar">
+		</form>
+			</div>
+			<script type="text/javascript">
+		
+		document.getElementById('login-button').addEventListener('click', function() {
+			document.getElementById('login-form').style.display = 'block';
+		});
+	</script>
+
+    </nav>
+    <script>
+  function abrirFormularioContacto() {
+    document.getElementById("formulario-contacto").style.display = "block";
+  }
+</script>
+<center>
+<form id="formulario-contacto" style="display: none;">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre">
+
+  <label for="email">Email:   </label>
+  <input type="email" id="email" name="email">
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea id="mensaje" name="mensaje"></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+</center>
+    
+  </header><br><br><br><br>
+  <div class="container">
+  	<h1> <center>Turismo Argentino</center>  </h1>
+  	<section id="contenidoA">
+	 <div class="caja">
+		<h4>¿Sabías que un dique tucumano guarda una cueva de murciélagos que es la más grande de Sudamérica?.</h4><br>
+		Las personas que visitan los valles tucumanos quedan asombrados por su belleza incalculable. En esta ocasión, te contamos sobre qué se puede hacer en el dique más visitado por los turistas.<br>
+		Además, en los arcos del muro se encuentra una de las colonias de murciélagos más grandes de Sudamérica. Hace poco más de dos décadas, en el sur tucumano, los murciélagos decidieron formar una gran familia, lo que contribuyó al equilibrio ecológico del lugar, pero hace algunos años, se pudo saber que algunas personas decidieron expulsarlos. La represa del lugar pasó a manos privadas de la Hidroeléctrica de Tucumán y la firma argumentó que estos mamíferos obstaculizaban el monitoreo del embalse. Por este motivo, alrededor del 85% de los murciélagos del Dique Escaba fueron ahuyentados y actualmente solo quedan unos pocos.
+
+	
+	</div>
+	 <div class="caja">
+		Tucumán  se destaca por sus hermosos valles, sus actividades de alta montaña y por preservar la naturaleza, por lo que es también conocida como El Jardín de la República. Si has visitado esta provincia seguramente lo que más te ha gustado han sido sus bondades naturales, pero lo que no sabemos es si conoces un dique que tiene mucho que ofrecer a sus visitantes. Te contamos de cuál se trata.
+El Dique Escaba, en Alberdi es uno de los lugares más visitados por los tucumanos. Tiene 580 hectáreas, con una profundidad de 75 metros y es un espacio ideal para deportes acuáticos y la pesca. Asimismo, embalsa las aguas de los ríos Singuil y Chavarría, que bajan de las Sierras del Aconquija.
+	
+	</div>
+	 <div class="caja">
+		<h4>Un poco de historia</h4> 
+
+El Dique Escaba fue construido entre los años 1943 y 1950 con el objetivo de generar energía eléctrica, asimismo atenuar las crecidas de los ríos Marapa y Singuil y regular la misma para riego. De esta manera, este lugar, desde esos años hasta la actualidad se ha convertido en uno de los sitios turísticos más visitados no solo por los tucumanos sino también por muchos turistas del resto del país. 
+
+<h4>¿Qué significa Escaba en quechua?</h4> 
+
+Escaba significa “lugar donde se encuentran las aguas”. El Dique Escaba, rodeado de valles de tierras fértiles que contrastan con cerros cubiertos de vegetación y con el azul penetrante del espejo de agua, hace que este lugar sea una atractiva opción de paseo y turismo.
+	
+	</div>
+	 <div class="caja">
+		<h4>Cómo llegar al Dique Escaba</h4>
+		Se puede llegar al Dique partiendo desde Alberdi. Luego de veinte kilómetros por caminos pavimentados, se llega a la boca de la Quebrada, donde el sendero es enripiado y es allí donde comienza la aventura ya que sus visitantes inician la trepada. En otras palabras, los turistas para llegar a este paraíso lo hacen desde Alberdi por la RP 308 y, hacia el norte por un camino vecinal se accede al dique que se encuentra a un kilómetro y medio de esa Villa.
+
+También, en este lugar, se puede disfrutar de una hostelería y un abanico de campings con todo lo necesario para pasar el día. Por ejemplo, muchos tucumanos llegan al dique con sus mochilas donde en su interior llevan el mate, el termo, alimentos y bebidas, una lona para poder tomar sol, y otros, en cambio prefieren ir livianos de equipaje para poder recorrer la zona. Cabe destacar que, el muro de contención que cuenta con una altura de casi cien metros es una obra muy valorada por los turistas ya que sostienen que es magnífica.  
+	
+	</div>
+
+	
+</section>
+<table  bgcolor="#f7dc6f" border="1">
+	<tr>
+		<td><h4>NOMBRE DEL LUGAR</h4></td>
+		<td style="padding: 0 20px; text-align: center;"><h4>UBICACION</h4> </td>
+		<td style="padding: 0 20px; text-align: center;"><h4>INFORMACION</h4></td>
+
+	</tr>
+	<tr>
+		<td>Dique ESCABA</td>
+		<td>
+		El Dique Escaba está ubicado sobre el río Marapa, en el sur de la provincia de Tucumán, en la localidad de juan bautista alberdi por la RP 308 y, hacia el norte por un camino vecinal se accede al dique que se encuentra a un kilómetro y medio de esa Villa. </td>
+		  <td style="height: 100px;"><p>en los arcos del muro se encuentra una de las colonias de murciélagos más grandes de Sudamérica. Hace poco más de dos décadas, en el sur tucumano, los murciélagos decidieron formar una gran familia, lo que contribuyó al equilibrio ecológico del lugar, pero hace algunos años, se pudo saber que algunas personas decidieron expulsarlos. La represa del lugar pasó a manos privadas de la Hidroeléctrica de Tucumán y la firma argumentó que estos mamíferos obstaculizaban el monitoreo del embalse. Por este motivo, alrededor del 85% de los murciélagos del Dique Escaba fueron ahuyentados y actualmente solo quedan unos pocos.</p></td>
+		<td><img src="https://www.serargentino.com/public/images/2020/12/16089754250-Dique-Escaba-2-portada-773x458.jpg" width="250"></td>
+		<td><img src="https://www.serargentino.com/public/images/2020/12/Dique%20Escaba2-1608975243.jpg" width="250"></td>
+	</tr>
+	<tr>
+		<td><h3>Dique El Cadillal</h3></td>
+		<td>El Cadillal es una localidad y comuna argentina ubicada en el Departamento Tafí Viejo de la Provincia de Tucumán.</td>
+		<td>En este hermoso lugar podrás pasar un día de descanso con varias actividades. Tendrás a tu disposición la más rica gastronomía con áreas de camping y mucho deporte extremo, Canoying, Kayak, Mountain bike, Windsurf, Kitesurf, Pesca y Caminatas.</td>
+		<td><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/diqueelcadillal/thumbs/thumbs_Dique-El-Cadillal.jpg" width="250"></td>
+		<td><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/diqueelcadillal/thumbs/thumbs_Dique-El-Cadillal-2.jpg"></td>
+	</tr>
+	<tr>
+		<td>Circuito Valles Calchaquíes</td>
+		<td>Los Valles Calchaquíes conforman un sistema de valles y montañas del Noroeste Argentino (NOA) que se extienden por 520 Km de norte a sur a través de la región centro de la provincia de Salta, extremo oeste de la provincia de Tucumán y región noreste de la provincia de Catamarca.</td>
+		<td>En este podrás ingresar a través de las montañas al norte del país con paisajes que te deslumbrarán. Te atraparán en el recorrido las sorpresas que esta tierra tiene para ti y seguro vas a querer volver. Disfrutarás de un alto contenido histórico en cada paso que des, junto a una hermosa naturaleza.</td>
+		<td><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitovallescalchaquies/thumbs/thumbs_Circuito-Valles-Calchaquies-3.jpg" width="250">
+		</td>
+		<td><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitovallescalchaquies/thumbs/thumbs_Circuito-Valles-Calchaquies-2.jpg" width="250"></td>
+	</tr>
+	<tr>
+		<td>Circuito Las Yungas</td>
+		<td>El circuito de las Yungas es un recorrido circular que comienza y termina en San Miguel de Tucumán luego de atravesar zonas de exuberante selva subtropical, rodeada por aguas cristalinas y senderos serranos, donde las cabalgatas, los paseos en bicicleta y la práctica de deportes náuticos en el dique El Cadillal son parte de los atractivos turísticos.</td>
+		<td>Con este circuito descansarás y te relajarás lejos de intensas actividades. Disfrutarás de la paz y el silencio de lugares paradisíacos con la mejor vista panorámica de la ciudad al llegar a San Javier. Los imponentes, grandes e incomparables bosques Raco y El Siambón te impresionarán. Así el fabuloso relato de una de las fábricas azucareras que más llama la atención en la provincia. Pasarás también por el Dique El Caldillal.</td>
+		<td><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitolasyungas/thumbs/thumbs_Circuito-Las-Yungas-2.jpg"width="250" ></td>
+		<td><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitolasyungas/thumbs/thumbs_Circuito-Las-Yungas-3.jpg" width="250"></td>
+	</tr>
+
+</table>
+
+<section id="1">
+	<center><h1>seccion 2</h1></center>
+</section>
+<section id="2"></section>
+<section id="3"></section>
+<section id="4"></section>
+</div>
+
+<section id="cotizacion">
+	<center>
+	<form action="enviar.php" method="POST">
+  <div class="form-group">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+  </div>
+
+  <div class="form-group">
+    <label for="producto">Producto:</label>
+    <input type="text" id="producto" name="producto" required>
+  </div>
+
+  <div class="form-group">
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" required>
+  </div>
+
+  <div class="form-group">
+    <input type="submit" value="Enviar Cotización">
+  </div>
+</form>
+
+</center>
+    
+</section>
+<section id="integrantes">
+<footer>
+	<center>
+	<table border="0">
+		<tr><td style="padding: 0 20px; text-align: center;" >
+			Integrantes
+		</td>
+		<td style="padding: 0 20px; text-align: center;">
+			Nombre
+		</td>
+		<td style="padding: 0 20px; text-align: center;">DNI</td>
+		<tr>
+			<td style="padding: 0 20px; text-align: center;"><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitolasyungas/thumbs/thumbs_Circuito-Las-Yungas-3.jpg" width="100" class="redondeado"> </td>
+			<td style="padding: 0 20px; text-align: center;">Araya Elias Gabriel</td>
+			<td style="padding: 0 20px; text-align: center;">42007478</td>
+		</tr>
+		<tr>
+				<td style="padding: 0 20px; text-align: center;"><img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitolasyungas/thumbs/thumbs_Circuito-Las-Yungas-3.jpg" width="100" class="redondeado">  </td>
+				<td style="padding: 0 20px; text-align: center;"> NISAD SDJKAW AJSDH </td>
+				<td style="padding: 0 20px; text-align: center;"> 12553214 </td>
+		</tr>
+		<tr>
+			<td style="padding: 0 20px; text-align: center;"> <img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitolasyungas/thumbs/thumbs_Circuito-Las-Yungas-3.jpg" width="100" class="redondeado"> </td>
+			<td style="padding: 0 20px; text-align: center;">	1asd sddf 23213</td>
+			<td style="padding: 0 20px; text-align: center;"> 123334231 </td>
+		</tr>
+		<tr>
+			<td style="padding: 0 20px; text-align: center;"> <img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitolasyungas/thumbs/thumbs_Circuito-Las-Yungas-3.jpg" width="100" class="redondeado"> </td>
+			<td style="padding: 0 20px; text-align: center;">12314 asdaf qwjdkhd</td>
+			<td style="padding: 0 20px; text-align: center;"> 125458092</td>
+		</tr>
+		<tr>
+			<td style="padding: 0 20px; text-align: center;"> <img src="https://www.lugaresturisticosdeargentina.com/wp-content/gallery/circuitolasyungas/thumbs/thumbs_Circuito-Las-Yungas-3.jpg" width="100" class="redondeado"> </td>
+			<td style="padding: 0 20px; text-align: center;">213123 asdghq sdklhsad</td>
+			<td style="padding: 0 20px; text-align: center;">94763017</td>
+		</tr>
+	</tr>
+	</table>
+	</center>
+ 
+<p>© 2023 Todos los derechos reservados Argentina turismo  </p>
+</footer>
+</section>
+</body>
+</html>
